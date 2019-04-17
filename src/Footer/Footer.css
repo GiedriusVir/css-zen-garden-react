@@ -1,0 +1,15 @@
+.footer .container {
+    width: 100%;
+  }
+
+.footer {
+  clear: both;
+}
+
+.footer-item {
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;
+  background-color: #B2D6FF;    /* Medium blue */
+}

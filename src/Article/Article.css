@@ -1,0 +1,14 @@
+.article {
+    margin: 30px auto;
+    text-align: right;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.article p {
+    font-weight: 200;
+    font-size: 1.2rem;
+}

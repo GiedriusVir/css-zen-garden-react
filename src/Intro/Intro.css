@@ -1,0 +1,64 @@
+.intro {
+    font-weight: 200;
+    color: #202020;
+    margin: 100px auto;
+}
+
+h1::before {
+    content: "Giedrius";
+    visibility: visible;
+    font-weight: 100;
+    display: block;
+    font-size: 0.8rem;
+    letter-spacing: 1.38em;
+    line-height: 0.7;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #60606E;
+    text-align: left;
+}
+
+.summary {
+    font-size: 1.2rem;
+    text-align: right;
+}
+
+.summary p {
+    margin: auto;
+}
+
+a:visited {
+    color: #202020;
+}
+
+.summary a:hover {
+    color: #990000;
+}
+
+.intro-icons {
+    margin: 20px auto;
+}
+
+.intro-icons a {
+    display: block;
+    float: right;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.intro-icons span {
+    display: none;
+    text-transform: uppercase;
+}
+
+.intro-icons a:hover i {
+    display: none;
+}
+
+.intro-icons a:hover span {
+    display: block;
+}
+
