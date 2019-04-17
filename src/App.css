@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:200,400,600');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Oswald', sans-serif;
   background: url(background-blank-empty-62693.jpg);
@@ -8,9 +14,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100%;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 
@@ -25,7 +28,7 @@ body {
   }
 
   .intro {
-    margin: 50px 0 0 0;
+    margin: 50px 0 20px 0;
     padding-bottom: 30px;
     border-bottom: 2px solid #202020;
   }
@@ -37,9 +40,9 @@ body {
   .intro-icons {
     display: none;
   }
-
+  
   .sidebar {
-    order: 2;
+    position: relative;
   }
 
   .footer-item {
@@ -88,6 +91,6 @@ body {
   }
 }
 
-.App {
+/* .App {
   text-align: center;
-}
+} */

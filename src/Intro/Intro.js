@@ -7,10 +7,10 @@ const intro = () => {
             <h1>CSS Zen Test</h1>
             <div className="summary">
                 <p>A demonstration of what can be accomplished 
-                    through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a>-based design.</p>
+                    through <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS MDN">CSS</a>-based design.</p>
                 <p>Everything was written 
-                    using <a href="https://reactjs.org/">React.js</a>, icons was used 
-                    from <a href="https://fontawesome.com/">Font Awesome</a>.</p>
+                    using <a href="https://reactjs.org/" title="React">React.js</a>, icons was used 
+                    from <a href="https://fontawesome.com/" title="Font Awesome">Font Awesome</a>.</p>
             </div>
             {/* anchor-icon list */}
             <div className="intro-icons">

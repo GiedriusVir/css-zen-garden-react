@@ -1,10 +1,10 @@
-.footer .container {
+.footer {
     width: 100%;
   }
 
-.footer {
+/* .footer {
   clear: both;
-}
+} */
 
 .footer-item {
   float: left;
