@@ -9,8 +9,13 @@
 
 .footer-item {
   float: left;
-  width: 31%;
+  width: 47%;
   margin: 20px 1.15%;
   height: 160px;
-  background-color: #B2D6FF;    /* Medium blue */
+  font-size: 300%;
+  text-align: center;
+}
+
+.footer-item i {
+  color: #202020;
 }
