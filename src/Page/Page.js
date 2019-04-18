@@ -36,8 +36,8 @@ class Page extends Component {
     return (
       <div className="page">
           <Intro />
-          <Sidebar />
           {articleList}
+          <Sidebar />
           <Footer />
       </div>
     )

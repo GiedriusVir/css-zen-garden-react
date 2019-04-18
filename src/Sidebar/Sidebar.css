@@ -1,11 +1,15 @@
 .sidebar {
-  width: 400px;
   position: absolute;
   left: 5%;
+  top: 20em;
 }
 
-ul {
+.sidebar ul {
   list-style-type: none;
+}
+
+.sidebar li {
+  margin: 5px auto;
 }
 
 .sidebar a {
@@ -17,6 +21,18 @@ ul {
 }
 
 .design-name {
-  font-size: 1.3em;
+  font-size: 18px;
   font-weight: 400;
+}
+
+.sidebar li {
+  color: #20202086;
+}
+
+.sidebar h3 a {
+  color: #5E5F62CC;
+}
+
+a.design-name {
+  color: #a28351;
 }
