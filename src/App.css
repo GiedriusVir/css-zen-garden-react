@@ -8,11 +8,10 @@
 
 body {
   font-family: 'Oswald', sans-serif;
-  background: url(background-blank-empty-62693.jpg);
+  background: url(background-blank-empty-62693.jpg) no-repeat center / cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
   height: 100%;
 }
 
